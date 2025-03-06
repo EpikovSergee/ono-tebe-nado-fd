@@ -27,9 +27,11 @@
  text-decoration: none;
  color: #000000;
 }
+
 .header__logo-image{
  width: 148px;
 }
+
 .header__menu-item .header__menu-link {
  text-decoration: none;
  border-bottom: 1px solid;
@@ -128,6 +130,7 @@
  display: grid;
  grid-template-columns: repeat(3, 1fr);
  gap: 25px;
+ padding-bottom: 30px;
 }
 
 .lots__heading {
@@ -194,7 +197,7 @@
 }
 
 .lots__look-more-link {
- margin-left: 64px;
+ margin-left: 40px;
  text-decoration: none;
  border-bottom: 1px solid;
  color: #000000;
@@ -279,7 +282,6 @@ padding: 180px 50px 0px 50px;
  display: flex;
  width: 164px;
  justify-content: space-around;
-
 }
 
 .address {
