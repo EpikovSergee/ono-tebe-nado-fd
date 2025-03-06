@@ -20,7 +20,11 @@
  font-style: normal;
  max-width: 240px;
  justify-self: end;
-}
+ width: 240px;
+ font-size: 18px;
+ line-height: 24.3px;
+ padding-right: 50px;
+ }
 
 .header__menu-item_active {
  list-style: none;
@@ -28,7 +32,7 @@
  color: #000000;
 }
 
-.header__logo-image{
+.header__logo-image {
  width: 148px;
 }
 
@@ -118,7 +122,6 @@
  padding-left: 31px;
  padding-right: 32px;
  padding-top: 12px;
-
 }
 
 /*-------------------------------------------------------*/
@@ -282,13 +285,6 @@ padding: 180px 50px 0px 50px;
  display: flex;
  width: 164px;
  justify-content: space-around;
-}
-
-.address {
- width: 240px;
- font-size: 18px;
- line-height: 24.3px;
- padding: 50px;
 }
 
 .footer__menu-item_active {
