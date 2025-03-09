@@ -2,7 +2,8 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  height: 293px;
+  padding-top: 90px;
+  padding-bottom: 91px;
   align-items: center;
 }
 
@@ -70,7 +71,6 @@
 .cover__title {
   position: relative;
   font-size: 100px;
-  font-family: "Raleway";
   line-height: 1.35;
   padding: 155px 50px 44px 50px;
   letter-spacing: 0.3em;
@@ -93,7 +93,6 @@
 .description {
   display: flex;
   justify-content: space-between;
-  font-family: "Raleway";
   font-size: 22px;
   text-transform: uppercase;
   line-height: 28px;
@@ -108,7 +107,6 @@
   text-transform: uppercase;
   line-height: auto;
   color: #fff;
-  font-family: "Raleway";
   background-color: transparent;
   border-color: #ffffff;
   border: 1px solid;
@@ -143,7 +141,6 @@
   position: relative;
   font-size: 22px;
   text-transform: uppercase;
-  font-family: "Raleway";
   font-weight: 700;
   text-decoration: underline #ffffff;
 }
@@ -152,8 +149,6 @@
   position: relative;
   line-height: 120%;
   font-size: 20px;
-  font-family: "Raleway";
-  text-decoration: none;
 }
 
 .lots__card-list-item {
@@ -205,7 +200,6 @@
   padding-right: 24px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  background-color: aliceblue;
 }
 
 .about__card-list-item {
@@ -216,7 +210,6 @@
 
 .about__title {
   padding-top: 136px;
-  font-family: "Raleway";
   text-transform: uppercase;
   font-size: 40px;
   padding-bottom: 100px;
@@ -240,13 +233,11 @@
 
 .about__text {
   padding-bottom: 24px;
-  font-family: "Raleway";
   font-size: 20px;
   line-height: 24px;
   padding-left: 9px;
 }
 .about__text_no_padding {
-  font-family: "Raleway";
   font-size: 20px;
   line-height: 24px;
 }
@@ -254,11 +245,9 @@
 /*------------------------------------------*/
 .footer {
   box-sizing: content-box;
-  padding: 155px 50px 0px 50px;
+  padding: 155px 50px 85px 50px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  height: 180px;
-  background-color: aliceblue;
 }
 
 .footer_address {
@@ -274,7 +263,7 @@
 
 .footer__menu-item {
   display: flex;
-  width: 164px;
+  min-width: 164px;
   justify-content: space-around;
   text-underline-offset: 4px;
 }
